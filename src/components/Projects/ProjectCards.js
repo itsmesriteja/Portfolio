@@ -8,6 +8,7 @@ import { AiOutlineDownload } from "react-icons/ai";
 function ProjectCards(props) {
   const handleButtonClick = () => window.open(props.demoLink, '_blank');
   const handleReferenceButtonClick = () => window.open(props.file, '_blank');
+  const handleCertificationButtonClick = () => window.open(props.certification, '_blank');
 
   return (
     <Card className="project-card-view">
@@ -47,6 +48,17 @@ function ProjectCards(props) {
             <AiOutlineDownload /> &nbsp;
             {"Reference"}
           </Button>)}
+        {"\n"}
+        {"\n"}
+        {!props.file && props.certification && (<Button
+            variant="primary"
+            onClick={handleCertificationButtonClick}
+            style={{ marginLeft: "10px" }}
+          >
+            <AiOutlineDownload /> &nbsp;
+            {"Certifications"}
+          </Button>)}
+
 
       </Card.Body>
     </Card>

@@ -74,12 +74,11 @@ function Home2() {
                 className="vertical-timeline-element--work"
                 contentStyle={{ background: '#8742a3', color: '#fff' }}
                 contentArrowStyle={{ borderRight: '7px solid  #8742a3' }}
-                date="July 2023 - Present"
+                date="July 2023 - June 2024"
                 iconStyle={{ background: '#8742a3', color: '#fff' }}
                 icon={<MdSchool />}
               >
-                <h3 className="vertical-timeline-element-title">Professional Developement</h3>
-                <h4 className="vertical-timeline-element-subtitle">Berlin, Germany</h4>
+                <h3 className="vertical-timeline-element-title">Professional Developement And Sabbatical</h3>
                 <p>
                   Advanced Javascript & Typescript at Codecademy, German language B1, Java at Spiced Academy.
                 </p>

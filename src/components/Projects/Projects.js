@@ -7,6 +7,8 @@ import FarmPdf from '../../Assets/../Assets/Reference_Letter_Farm.pdf';
 import RelaxdaysPdf from '../../Assets/../Assets/Reference_Letter_Relaxdays.pdf';
 import SignspinPdf from '../../Assets/../Assets/Reference_Letter_Signspin.pdf';
 import LegalHorizonPdf from '../../Assets/../Assets/Search_UI_presentation_MasterThesis.pdf';
+import Certifications from '../../Assets/../Assets/Sriteja_Certifications.pdf';
+
 
 function Projects() {
 	return (
@@ -33,8 +35,7 @@ function Projects() {
 							description={
 								<ul>
 									<li className="about-activity">
-										<IoMdArrowDroprightCircle /> Coded a 10-page responsive site
-										along with a secured login system using OAuth2.0, Typescript
+										<IoMdArrowDroprightCircle /> Coded the corporate site of Farm GmbH using React.js, Typescript
 										and Tailwind CSS.
 									</li>
 									<li className="about-activity">
@@ -68,11 +69,11 @@ function Projects() {
 									<li className="about-activity">
 										<IoMdArrowDroprightCircle /> Developed a product backlog
 										micro frontend that provides article information across 7
-										European countries using Javascript and Vue.js.
+										European countries using Javascript and React.js.
 									</li>
 									<li className="about-activity">
 										<IoMdArrowDroprightCircle /> Coded an internal permission
-										app for managing the permissions of all 150 employees using
+										app with Vue.js for managing the permissions of all 150 employees using
 										JWT authentication and OAuth2.0 authorization.
 									</li>
 									<li className="about-activity">
@@ -143,6 +144,28 @@ function Projects() {
 								</ul>
 							}
 							demoLink="https://vue3-vite-search-ui-teja.vercel.app/"
+						/>
+					</Col>
+					<Col md={6} className="project-card">
+						<ProjectCard
+							isBlog={false}
+							isPublic={false}
+							title={
+								<span className="purple">
+									Codecademy Certifications
+								</span>
+							}
+							certification={Certifications}
+							description={
+								<ul>
+									<li className="about-activity">
+										<IoMdArrowDroprightCircle /> Javascript Certification
+									</li>
+									<li className="about-activity">
+										<IoMdArrowDroprightCircle /> Introduction to cloud computing certification
+									</li>
+								</ul>
+							}
 						/>
 					</Col>
 					<Col md={6} className="project-card">
