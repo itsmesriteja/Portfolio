@@ -92,10 +92,10 @@ function Home2() {
                 iconStyle={{ background: '#8742a3', color: '#fff' }}
                 icon={<MdWorkHistory />}
               >
-                <h3 className="vertical-timeline-element-title">Lead Frontend Developer</h3>
+                <h3 className="vertical-timeline-element-title">Software Developer(Frontend)</h3>
                 <h4 className="vertical-timeline-element-subtitle">The Farm GmbH, Berlin, Germany</h4>
                 <p>
-                  Typescript, Vue3, Nuxt.js, GraphQL, Unit testing.
+                  Typescript, React.js, Vue3, Nuxt.js, GraphQL, Unit testing.
                 </p>
               </VerticalTimelineElement>
               <VerticalTimelineElement
