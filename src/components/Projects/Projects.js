@@ -3,6 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import ProjectCard from './ProjectCards';
 import Particle from '../Particle';
 import { IoMdArrowDroprightCircle } from 'react-icons/io';
+import FarmPdf from '../../Assets/../Assets/Reference_Letter_Farm.pdf';
 import RelaxdaysPdf from '../../Assets/../Assets/Reference_Letter_Relaxdays.pdf';
 import SignspinPdf from '../../Assets/../Assets/Reference_Letter_Signspin.pdf';
 import LegalHorizonPdf from '../../Assets/../Assets/Search_UI_presentation_MasterThesis.pdf';
@@ -15,7 +16,7 @@ function Projects() {
 			<Particle />
 			<Container>
 				<h1 className="project-heading">
-					<strong className="purple"> Work experience </strong>
+					My Previous <strong className="purple"> work experiences </strong>
 				</h1>
 				<p style={{ color: 'white' }}>
 					Here are a few projects I've worked on across different companies.
@@ -30,6 +31,7 @@ function Projects() {
 									The Farm GmbH - Frontend Developer
 								</span>
 							}
+							file={FarmPdf}
 							description={
 								<ul>
 									<li className="about-activity">
@@ -42,12 +44,13 @@ function Projects() {
 										and Vue3.
 									</li>
 									<li className="about-activity">
-										<IoMdArrowDroprightCircle /> Orchestrating as one of the lead
+										<IoMdArrowDroprightCircle /> Orchestrated as one of the lead
 										front-end developers focusing on migration from Vue2 to Vue3
 										and unit testing(JEST) alongside mentoring Interns.
 									</li>
 								</ul>
 							}
+							demoLink="https://www.the-resc.com/"
 						/>
 					</Col>
 
