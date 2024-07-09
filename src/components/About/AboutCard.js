@@ -13,7 +13,7 @@ function AboutCard() {
             I have completed my <span className="purple">M.Sc in Digital Engineering</span> at Otto Von Guericke University, Magdeburg.
             <br />
             <br />
-            I am actively looking for a <span className="purple">Frontend developer opportunity</span> in Berlin(On-site) or Germany(Remote).
+            I am actively looking for a <span className="purple">new software development challenege</span> in Berlin(On-site) or Germany(Remote).
             <br />
             <br />
             Apart from coding, some other activities that I love to do!

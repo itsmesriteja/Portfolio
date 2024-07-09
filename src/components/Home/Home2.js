@@ -29,10 +29,10 @@ function Home2() {
             👋 Welcome to my profile! I'm a frontend developer with over 4 years of experience, dedicated to crafting seamless user experiences. My expertise lies in utilizing a stack that includes
             
              <i>
-                <b className="purple"> Javascript, Vue.js, React.js, Tailwind CSS, Restful API, and JEST  </b>
+                <b className="purple"> Typescript, Javascript, Vue.js, React.js, Tailwind CSS, Restful API, and JEST  </b>
               </i>
               <br />
-              <br />💼 Currently, I am actively looking for a Front-end developer position where I can leverage my expertise and craft scalable software solutions.
+              <br />I am actively looking for a new challenge where I can leverage my expertise and craft scalable software solutions.
               <br />
               <br />
               My field of Interest's are building new &nbsp;
@@ -74,21 +74,7 @@ function Home2() {
                 className="vertical-timeline-element--work"
                 contentStyle={{ background: '#8742a3', color: '#fff' }}
                 contentArrowStyle={{ borderRight: '7px solid  #8742a3' }}
-                date="July 2023 - June 2024"
-                iconStyle={{ background: '#8742a3', color: '#fff' }}
-                icon={<MdSchool />}
-              >
-                <h3 className="vertical-timeline-element-title">Professional Developement And Sabbatical</h3>
-                <p>
-                  Advanced Javascript & Typescript at Codecademy, German language B1, Java at Spiced Academy.
-                </p>
-              </VerticalTimelineElement>
-
-              <VerticalTimelineElement
-                className="vertical-timeline-element--work"
-                contentStyle={{ background: '#8742a3', color: '#fff' }}
-                contentArrowStyle={{ borderRight: '7px solid  #8742a3' }}
-                date="February 2022 - June 2023"
+                date="February 2022 - Present"
                 iconStyle={{ background: '#8742a3', color: '#fff' }}
                 icon={<MdWorkHistory />}
               >
