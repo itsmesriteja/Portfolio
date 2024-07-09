@@ -20,7 +20,7 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity">
-              <TbPointFilled /> Fitness Enthisiast
+              <TbPointFilled /> Fitness & Sports Enthisiast
             </li>
             <li className="about-activity">
               <TbPointFilled /> Writing Finance articles
